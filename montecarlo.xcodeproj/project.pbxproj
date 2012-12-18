@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E262135A1680A6BE002B0A26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26213591680A6BE002B0A26 /* main.cpp */; };
+		E262135C1680A6BE002B0A26 /* montecarlo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E262135B1680A6BE002B0A26 /* montecarlo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E26213531680A6BE002B0A26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E262135C1680A6BE002B0A26 /* montecarlo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E26213551680A6BE002B0A26 /* montecarlo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = montecarlo; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26213591680A6BE002B0A26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E262135B1680A6BE002B0A26 /* montecarlo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = montecarlo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26213521680A6BE002B0A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E262134A1680A6BE002B0A26 = {
+			isa = PBXGroup;
+			children = (
+				E26213581680A6BE002B0A26 /* montecarlo */,
+				E26213561680A6BE002B0A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26213561680A6BE002B0A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26213551680A6BE002B0A26 /* montecarlo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26213581680A6BE002B0A26 /* montecarlo */ = {
+			isa = PBXGroup;
+			children = (
+				E26213591680A6BE002B0A26 /* main.cpp */,
+				E262135B1680A6BE002B0A26 /* montecarlo.1 */,
+			);
+			path = montecarlo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26213541680A6BE002B0A26 /* montecarlo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E262135F1680A6BE002B0A26 /* Build configuration list for PBXNativeTarget "montecarlo" */;
+			buildPhases = (
+				E26213511680A6BE002B0A26 /* Sources */,
+				E26213521680A6BE002B0A26 /* Frameworks */,
+				E26213531680A6BE002B0A26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = montecarlo;
+			productName = montecarlo;
+			productReference = E26213551680A6BE002B0A26 /* montecarlo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E262134C1680A6BE002B0A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ahmed Riza";
+			};
+			buildConfigurationList = E262134F1680A6BE002B0A26 /* Build configuration list for PBXProject "montecarlo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E262134A1680A6BE002B0A26;
+			productRefGroup = E26213561680A6BE002B0A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26213541680A6BE002B0A26 /* montecarlo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26213511680A6BE002B0A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E262135A1680A6BE002B0A26 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E262135D1680A6BE002B0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E262135E1680A6BE002B0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E26213601680A6BE002B0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E26213611680A6BE002B0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E262134F1680A6BE002B0A26 /* Build configuration list for PBXProject "montecarlo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E262135D1680A6BE002B0A26 /* Debug */,
+				E262135E1680A6BE002B0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E262135F1680A6BE002B0A26 /* Build configuration list for PBXNativeTarget "montecarlo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26213601680A6BE002B0A26 /* Debug */,
+				E26213611680A6BE002B0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E262134C1680A6BE002B0A26 /* Project object */;
+}
